@@ -13,7 +13,7 @@
     "flowbite": "^1.5.3",
     "flowbite-react": "^0.3.4",
     "frontity-contact-form-7": "^0.1.7",
-    "node": "^19.2.0",
+    "node": "^19.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.39.7",

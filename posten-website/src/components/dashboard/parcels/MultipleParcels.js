@@ -38,7 +38,7 @@ function MultiplyParcels() {
 
   return (
     <>
-      <div className=" w-full py-12">
+      <div className=" w-[600px] py-10">
         <form onSubmit={handleSubmit} className=" relative">
           <input
             type="text"

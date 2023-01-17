@@ -12,6 +12,7 @@ import PostPage from "./components/dashboard/posts/PostPage";
 import AddPost from "./components/dashboard/posts/AddPost";
 import EditPost from "./components/dashboard/posts/EditPost";
 import PostDetail from "./components/store/PostsDetail";
+import Drivers from "./components/drivers/Drivers";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/store" element={<Store />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/dashboard" element={<DashboardLayout />} />
+            <Route path="/drivers" element={<Drivers />} />
             <Route path="/login" element={<Login />} />
             <Route exact path="/dashboard/posts" element={<PostPage />} />
             <Route path="/dashboard/posts/add" element={<AddPost />} />

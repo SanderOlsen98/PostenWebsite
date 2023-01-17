@@ -14,12 +14,13 @@ function Dashboard() {
   };
 
   return (
-    <div className=" col-span-2 border-gray-200 items-start justify-start flex w-full py-24">
-      <div className="w-full items-start justify-start flex flex-col px-5 pt-12 pb-6">
+    <div className=" col-span-2 border-gray-200 items-center justify-center flex w-full py-24">
+      <div className="w-full items-center justify-center flex flex-col px-5 pt-12 pb-6">
         <h1 className=" text-lg font-bold">Sjåfører</h1>
         <div className=" py-12">
           <button className="bg-red-300 text-gray-900 font-bold px-4 rounded opacity-50 hover:bg-red-700 hover:text-white py-4">
             Koordinator - Madeleine
+            <p>+4799999999</p>
           </button>
         </div>
         <div className=" grid grid-rows-6 grid-flow-col gap-1 border-t py-3 border-b md:row md:flex-col">

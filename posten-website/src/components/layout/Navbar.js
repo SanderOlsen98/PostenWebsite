@@ -71,6 +71,24 @@ function Navbar() {
                 </li>
                 <li className="md:ml-8 text-l md:my-0 my-6">
                   <Link
+                    to="/drivers"
+                    onClick={() => setOpen(false)}
+                    className=" hover:text-red-400 duration-500"
+                  >
+                    Drivers
+                  </Link>
+                </li>
+                <li className="md:ml-8 text-l md:my-0 my-6">
+                  <Link
+                    to="/dashboard"
+                    onClick={() => setOpen(false)}
+                    className=" hover:text-red-400 duration-500"
+                  >
+                    Routes
+                  </Link>
+                </li>
+                <li className="md:ml-8 text-l md:my-0 my-6">
+                  <Link
                     to="/contact"
                     onClick={() => setOpen(false)}
                     className=" hover:text-red-400 duration-500"

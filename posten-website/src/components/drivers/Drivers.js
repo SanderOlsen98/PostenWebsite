@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import sentrumImage from "../../img/postenbring.jpeg";
+import React, { useState, useEffect } from "react";
 
 const Drivers = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -34,7 +33,7 @@ const Drivers = () => {
               "Kjell A Haugen",
               "Steinar",
               "Kitto",
-              "Steinar",
+              "Hugo",
               "Steinar",
               "Steinar",
               "Steinar",

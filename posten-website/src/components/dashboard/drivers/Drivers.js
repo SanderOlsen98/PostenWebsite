@@ -6,6 +6,7 @@ function Dashboard() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [colour, setColor] = useState("");
   const [changeColor, setChangeColor] = useState("null");
+
   const click = (colour) => {
     setColor(colour);
     document.getElementById(changeColor).style.backgroundColor = [colour];
@@ -15,7 +16,7 @@ function Dashboard() {
 
   return (
     <div className=" col-span-2 border-gray-200 items-center justify-center flex w-full py-24">
-      <div className="w-full items-center justify-center flex flex-col px-5 pt-12 pb-6">
+      <div className="w-full items-center justify-center flex flex-col px-5 pb-6">
         <h1 className=" text-lg font-bold">Sjåfører</h1>
         <div className=" py-12">
           <button className="bg-red-300 text-gray-900 font-bold px-4 rounded opacity-50 hover:bg-red-700 hover:text-white py-4">
@@ -23,13 +24,13 @@ function Dashboard() {
             <p>+4799999999</p>
           </button>
         </div>
-        <div className=" grid grid-rows-4 grid-flow-col gap-1 border-t py-3 border-b md:row md:flex-col">
+        <div className=" grid grid-rows-2 grid-flow-col gap-1 border-t py-3 border-b md:row md:flex-col">
           <div className=" py-2">
             <button
-              id="Burhan"
+              id="Knut"
               onClick={() => {
                 setButtonPopup(true);
-                setChangeColor("Burhan");
+                setChangeColor("Knut");
               }}
               className="bg-gray-300 text-gray-900 font-bold px-4 rounded opacity-50 hover:opacity-30 py-4 w-32"
             >
@@ -38,10 +39,10 @@ function Dashboard() {
           </div>
           <div className=" py-2">
             <button
-              id="Kjell A H"
+              id="Espen"
               onClick={() => {
                 setButtonPopup(true);
-                setChangeColor("Kjell A H");
+                setChangeColor("Espen");
               }}
               className="bg-gray-300 text-gray-900 font-bold px-4 rounded opacity-50 hover:opacity-30 py-4 w-32"
             >
@@ -50,10 +51,10 @@ function Dashboard() {
           </div>
           <div className=" py-2">
             <button
-              id="Zoran"
+              id="Alexandros"
               onClick={() => {
                 setButtonPopup(true);
-                setChangeColor("Zoran");
+                setChangeColor("Alexandros");
               }}
               className="bg-gray-300 text-gray-900 font-bold px-4 rounded opacity-50 hover:opacity-30 py-4 w-32"
             >
@@ -62,10 +63,10 @@ function Dashboard() {
           </div>
           <div className=" py-2">
             <button
-              id="Kitto"
+              id="Lars"
               onClick={() => {
                 setButtonPopup(true);
-                setChangeColor("Kitto");
+                setChangeColor("Lars");
               }}
               className="bg-gray-300 text-gray-900 font-bold px-4 rounded opacity-50 hover:opacity-30 py-4 w-32"
             >
@@ -74,10 +75,10 @@ function Dashboard() {
           </div>
           <div className=" py-2">
             <button
-              id="Shaho"
+              id="Andre"
               onClick={() => {
                 setButtonPopup(true);
-                setChangeColor("Shaho");
+                setChangeColor("Andre");
               }}
               className="bg-gray-300 text-gray-900 font-bold px-4 rounded opacity-50 hover:opacity-30 py-4 w-32"
             >
@@ -86,10 +87,10 @@ function Dashboard() {
           </div>
           <div className=" py-2">
             <button
-              id="Anne-Bente"
+              id="Backer"
               onClick={() => {
                 setButtonPopup(true);
-                setChangeColor("Anne-Bente");
+                setChangeColor("Backer");
               }}
               className="bg-gray-300 text-gray-900 font-bold px-4 rounded opacity-50 hover:opacity-30 py-4 w-32"
             >
